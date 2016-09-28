@@ -1,0 +1,130 @@
+.nav
+{
+    height: 80px;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+div.right ul
+{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+   
+}
+.right li
+{
+    display: inline-block;
+    margin: auto;
+    margin-right: 30px;
+    margin-top: 15px;
+    list-style-type: none;
+}
+hr
+{
+    margin-top: 100px;
+    position: absolute;
+    width: 95%;
+    left: 25px;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.home a
+{
+    text-decoration: none;
+}
+.about a
+{
+    text-decoration: none;
+}
+.work a
+{
+    text-decoration: none;
+}
+.contact a
+{
+    text-decoration: none;
+}
+.pearl
+{
+    font-family: 'Dancing Script', cursive;
+    list-style: none;
+    bottom: 10px;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    left: 90px;
+    font-size: 25px;
+}
+.left ul
+{
+    margin-top: 0;
+}
+body
+{
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+div.left
+{
+
+}
+li.home
+{
+        right: 350px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+}
+li.about
+{
+        right: 275px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+}
+li.work
+{
+        right: 210px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+}
+li.contact
+{
+        right: 115px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+}
+
+.left img
+{
+    height: 30px;
+    position: absolute;
+    left: 19px;
+    top: 20px;
+}
+.left li.img
+{
+    position: absolute;
+    left: 40px;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    top: 15px;
+}
