@@ -128,3 +128,30 @@ li.contact
     height: 100%;
     top: 15px;
 }
+
+.ryan
+{
+	display: inline-block;
+	color: red;
+}
+
+.hello
+{
+	display: inline-block;
+}
+
+.into
+{
+
+}
+
+.into li
+{
+	height: 100%;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
