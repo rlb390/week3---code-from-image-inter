@@ -35,6 +35,7 @@ body
 {
 	margin: 0;
 	padding: 0;
+	height: 2000px;
 }
 
 .home a
@@ -183,6 +184,7 @@ li.contact
 	font-size: 20px;
     color: red;
     text-align: center;
+    font-family: 'Satisfy', cursive;
 }
 p.leftcaption
 {
@@ -208,6 +210,7 @@ div.rightcap p.mywork
     list-style: none;
     font-size: 20px;
     text-align: center;
+    font-family: 'Satisfy', cursive;
 
 }
 
@@ -221,4 +224,85 @@ div.rightcap li
 {
 	list-style: none;
 
+}
+
+.photo img
+{
+	height: 200px;
+	width: 200px;
+	box-shadow: 2px 2px grey;
+}
+
+.photo ul
+{
+	position: absolute;
+    top: 800px;
+    width: 100%;
+    text-align: center;
+}
+.photo li
+{
+	display: inline-block;
+	margin: 5px;
+}
+.downphoto li
+{
+	display: inline-block;
+	margin: 5px;
+}
+.downphoto ul
+{
+	position: absolute;
+    top: 1100px;
+    width: 100%;
+    text-align: center;
+}
+.downphoto img
+{
+	height: 200px;
+	width: 200px;
+	box-shadow: 2px 2px grey;
+}
+figcaption
+{
+	border-radius: 5px;
+    height: 60px;
+    box-shadow: 2px 2px 2px 0px grey;
+    width: 200px;
+    text-align: left;
+}
+.footer
+{
+	height: 30px;
+    width: 100%;
+    top: 2000px;
+    background-color: blue;
+    z-index: -1;
+    position: absolute;
+}
+
+div.thanks p
+{
+	font-family: 'Satisfy', cursive;
+	color: red;
+	font-size: 25px;
+}
+.thanks
+{
+	height: 100%;
+    position: absolute;
+    top: 1475px;
+    text-align: center;
+    width: 100%;
+}
+html
+{
+
+}
+div.footer ul
+{
+
+}
+{
+	position: relative;
 }
