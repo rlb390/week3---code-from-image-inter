@@ -10,10 +10,10 @@
 div.right ul
 {
     display: block;
-    width: 100%;
+ 
     position: absolute;
     top: 30px;
-    right: 30px;
+    left: 900px;
    
 }
 .right li
@@ -38,7 +38,7 @@ body
 	height: 2000px;
 }
 
-.home a
+.right a
 {
     text-decoration: none;
 }
@@ -166,9 +166,10 @@ li.contact
 	height: 100%;
     position: absolute;
     top: 150px;
-    width: 100%;
     text-align: center;
     font-size: 30px;
+    left: 25%;
+    list-style: none;
 }
 .leftcap
 {
@@ -273,10 +274,12 @@ figcaption
 }
 .footer
 {
-	background-color: blue;
+    background-color: blue;
     position: relative;
     bottom: 0;
     top: 1800px;
+    align-self: center;
+    width: 1456px;
     
 }
 
@@ -426,8 +429,7 @@ div.icon
     width: 100%;
 }
 .icon li
-{
-	display: inline-block;
+{	display: inline-block;
 	margin: 5px;
 }
 
